@@ -38,15 +38,15 @@ for word in words:
         word = word.lower()
             
 #%%
-        
+j = 0     
 for i in range(0, len(words)):
     for adverb in all_adverbs:
         if words[i] == adverb:
             print("YOU HAVE AN ADVERB: %s" % (words[i]))
-            
-            
-            
-            
+            j = j+1
+
+print("Final score: %d adverbs out of %d words. %d/%d, or 8.5 for effort." %(j, len(words), (10 - (j*1000.0/len(words))), 10))
+         
             
     
     
