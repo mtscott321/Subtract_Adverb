@@ -7,7 +7,7 @@ Created on Wed Jan 29 23:57:54 2020
 
 import io
 
-adverbs = r"C:\Users\mtsco\OneDrive\Documents\Miscellaneous\Subtract_Adverb\Subtract_Adverb\adverbs.txt"
+adverbs = "adverbs.txt"
 
 your_story = "your_story.txt"
 
