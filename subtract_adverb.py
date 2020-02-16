@@ -7,13 +7,13 @@ Created on Wed Jan 29 23:57:54 2020
 
 import io
 
-adverbs = "adverbs.txt"
+adverbs = r"C:\Users\mtsco\OneDrive\Documents\Miscellaneous\Subtract_Adverb\Subtract_Adverb\adverbs.txt"
 
 your_story = "your_story.txt"
 
 #%%
 all_adverbs = []
-with open('adverbs.txt','r') as f:
+with open(adverbs,'r') as f:
     for line in f:
         for word in line.split():
            all_adverbs.append(word.lower()) 
@@ -46,10 +46,3 @@ for i in range(0, len(words)):
             j = j+1
 
 print("Final score: %d adverbs out of %d words. %d/%d, or 8.5 for effort." %(j, len(words), (10 - (j*1000.0/len(words))), 10))
-         
-            
-    
-    
-    
-    
-    
