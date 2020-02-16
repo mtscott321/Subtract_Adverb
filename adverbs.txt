@@ -271,10 +271,6 @@ unfortunately
 unimpressively
 unnaturally
 unnecessarily
-upbeat
-upright
-upside-down
-upward
 urgently
 usefully
 uselessly
@@ -295,7 +291,6 @@ voluntarily
 warmly
 weakly
 wearily
-well
 wetly
 wholly
 wildly
